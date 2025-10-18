@@ -1,0 +1,57 @@
+body {
+  font-family: 'Vazirmatn', Tahoma, sans-serif;
+  background: linear-gradient(135deg, #f3e7e9 0%, #e3eeff 100%);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+.container {
+  max-width: 400px;
+  margin: 60px auto;
+  background: rgba(255,255,255,0.85);
+  border-radius: 18px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.09);
+  padding: 32px;
+  text-align: center;
+}
+h1 {
+  color: #6a88c8;
+  margin-bottom: 18px;
+}
+.age-box {
+  margin-top: 30px;
+}
+input[type="text"] {
+  padding: 8px 12px;
+  font-size: 17px;
+  border-radius: 8px;
+  border: 1px solid #d0d6e2;
+  margin: 7px 0;
+}
+button {
+  padding: 8px 18px;
+  background: #6a88c8;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  background: #517bbd;
+}
+#result {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #4e6fa7;
+}
+audio {
+  margin-top: 25px;
+  width: 80%;
+}
+.admin-tip {
+  margin-top: 25px;
+  font-size: 15px;
+  color: #7a7;
+}
