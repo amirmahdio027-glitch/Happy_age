@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Age</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>به سایت Happy Age خوش اومدی 😊</h1>
+    <p>سن خودت رو ببین و حال خوب بگیر!</p>
+    <div class="age-box">
+      <label for="birth">تاریخ تولد (مثلاً 1385/04):</label>
+      <input type="text" id="birth" placeholder="سال/ماه">
+      <button onclick="calculateAge()">محاسبه سن</button>
+      <div id="result"></div>
+    </div>
+    <audio id="bg-music" src="music.mp3" autoplay loop controls></audio>
+    <p class="admin-tip">تمام سایت مال خودته! هر تغییری خواستی بده 😎</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
